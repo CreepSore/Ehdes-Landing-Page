@@ -109,7 +109,7 @@ a {
 
 #links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: center;
 
     margin-top: 10px;
@@ -126,12 +126,13 @@ a {
 
     width: auto;
     padding: 5px;
-    background-color: var(--accent-color);
     border-radius: 10px;
+    border: 1px solid transparent;
 }
 
 .link-button:hover {
-    background-color: rgb(255, 124, 179);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid var(--accent-color);
 }
 
 .link-button p {
