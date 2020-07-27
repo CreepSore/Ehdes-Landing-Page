@@ -204,20 +204,19 @@ a {
     }
 
     #links {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
     }
 
     #links h1 {
-        display: initial;
+        display: none;
         text-align: center;
     }
 
     .link-button {
         margin-bottom: 5px;
-        height: 75px;
+        height: 48px;
+        width: 48px;
         font-size: 24px;
     }
-
-
 }
